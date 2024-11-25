@@ -83,7 +83,7 @@ The client:
 
 ## **Learn More**  
 For a detailed explanation, check out the accompanying blog post:  
-👉 [Blog Post Link](#)  
+👉 [Blog Post Link](https://evolveasdev.com/blogs/guide/beginners-guide-to-socket-programming-in-c-step-by-step-explanation)  
 
 ---
 
