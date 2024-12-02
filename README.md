@@ -1,13 +1,13 @@
 # Chat Server Using Sockets in C  
 
-This project demonstrates a simple chat server implemented in C using sockets. The server handles communication with a single client, relaying messages between the server and the client.
+This branch (`chat-server`) contains a simple implementation of a chat server using sockets in C. It demonstrates communication between a server and a client over TCP, making it an ideal learning resource for understanding socket programming concepts.
 
 ---
 
 ## Features  
-- TCP-based chat server using sockets.  
-- Uses `poll` for handling input from both the client and server's standard input.  
-- Lightweight and straightforward implementation for learning purposes.  
+- TCP-based communication using sockets.  
+- Handles both server input and client messages via `poll`.  
+- Designed to showcase fundamental networking concepts.  
 
 ---
 
@@ -19,10 +19,9 @@ This project demonstrates a simple chat server implemented in C using sockets. T
 
 ## How to Run  
 
-1. **Clone the Repository**  
+1. **Switch to the `chat-server` Branch**  
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git checkout chat-server
    ```
 
 2. **Compile the Code**  
@@ -36,12 +35,19 @@ This project demonstrates a simple chat server implemented in C using sockets. T
    ```
    The server will start and listen on port `8080`.  
 
+4. **Client side implementation coming soon**
+
 ---
 
 ## How It Works  
 - The server listens on port `8080` for incoming client connections.  
-- Messages from the server's input (`stdin`) are sent to the connected client.  
+- Messages entered on the server's terminal (`stdin`) are sent to the connected client.  
 - Messages from the client are displayed on the server console.  
+
+---
+
+## Branch Information  
+This branch is dedicated to the **chat-server** implementation as part of the ongoing **socket-programming** repository. For other examples or extensions, check out the main branch.  
 
 ---
 
